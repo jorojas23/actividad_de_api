@@ -1,0 +1,104 @@
+body {
+    font-family: 'Arial', sans-serif; 
+    background-color: #6babff; 
+    margin: 0; 
+    padding: 20px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    position: relative; 
+    min-height: 95vh; 
+}
+h1 {
+    color: #2f3f49; 
+    margin-bottom: 30px; 
+    text-align: center; 
+}
+.container {
+    display: flex; 
+    justify-content: center; 
+    width: 90%; 
+    max-width: 1000px; 
+    margin: 40px 0 20px 0; 
+}
+.search-box {
+    flex: 1; 
+    margin-right: 50px;
+    height: 2.5rem; 
+    background-color: white; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    display: flex; 
+}
+#serie-container{
+    display: flex;
+    flex-direction: column;
+}
+#serie-container .container-second{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.series {
+    flex: 2; 
+    background-color: rgb(255, 255, 255); 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    padding: 10px; 
+    max-height: 400px; 
+    overflow-y: auto; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.serie {
+    border-bottom: 1px solid #ffffff;
+    padding: 10px 0;
+}
+.serie:last-child {
+    border-bottom: none; 
+}
+input[type="text"] {
+    width: 100%; 
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 16px; 
+}
+button {
+    padding: 8px 16px; 
+    border: none; 
+    background-color: #2f3f49; 
+    color: white; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+button:hover {
+    background-color: #1e2a35; 
+}
+footer {
+    position: absolute; 
+    bottom: 20px; 
+    left: 20px; 
+    text-align: left; 
+    font-size: 14px; 
+    color: #470c0c; 
+}
+.creator-names {
+    margin-top: 10px;
+    font-style: italic; 
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+        align-items: stretch; 
+    }
+    .search-box {
+        margin-right: 0; 
+        margin-bottom: 20px; 
+    }
+    .series {
+        width: 100%; 
+    }
+}
