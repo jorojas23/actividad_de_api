@@ -9,42 +9,91 @@
 
 </head>
 <body>
-<h1>Series de Cartoon Network </h1>
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Cartoon_Network_2010_logo.svg" width="150px">
-<div class="container">
-    <div class="search-box">
-        <input type="text" id="buscar" placeholder="Buscar serie">
-        <button class="boton" id="boton"> 
-          Buscar
-        </button>
-    </div>
-    
-    <div id="series" class="series">
-        <div id="serie-container">
-            <h1>Un Show Más</h1>
-            <div class="container-second">
-                <div class="image">
-                    <img src="https://static.wikia.nocookie.net/regularshow/images/1/15/Un_Show_M%C3%A1s_Poster.png/revision/latest?cb=20240707164333&path-prefix=es" alt="Un Show Más" width="200px">
+    <h1>Series de Cartoon Network </h1>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Cartoon_Network_2010_logo.svg" width="150px">
+    <div class="container">
+        <div class="search-box">
+            <input type="text" id="buscar" placeholder="Buscar serie">
+            <button class="boton" id="boton"> 
+            Buscar
+            </button>
+        </div>
+        
+        <div id="series" class="series">
+            <div id="serie-container">
+                <h1>Un Show Más</h1>
+                <div class="container-second">
+                    <div class="image">
+                        <img src="https://static.wikia.nocookie.net/regularshow/images/1/15/Un_Show_M%C3%A1s_Poster.png/revision/latest?cb=20240707164333&path-prefix=es" alt="Un Show Más" width="200px">
+                    </div>
+                    <div class="decribcion">
+                        <p><strong>Creador:</strong> J. G. Quintel</p>
+                        <p><strong>Cantidad de temporadas:</strong> 8</p>
+                        <p><strong>Personajes principales:</strong> Mordecai, Rigby</p>
+                        <p><strong>Valoración:</strong> 8.5/10</p>
+                        <p><strong>Año de transmisión:</strong> 6 de septiembre de 2010</p>
+                        <p><strong>Año de finalización:</strong> 16 de enero de 2017</p>
+                        <button id="editar-datos" data-id="1">Editar</button>
+                        <button id="eliminar-datos" data-id="1">Eliminar</button>
+                    </div>
                 </div>
-                <div class="decribcion">
-                    <p><strong>Creador:</strong> J. G. Quintel</p>
-                    <p><strong>Cantidad de temporadas:</strong> 8</p>
-                    <p><strong>Personajes principales:</strong> Mordecai, Rigby</p>
-                    <p><strong>Valoración:</strong> 8.5/10</p>
-                    <p><strong>Año de transmisión:</strong> 6 de septiembre de 2010</p>
-                    <p><strong>Año de finalización:</strong> 16 de enero de 2017</p>
-                </div>
+                
             </div>
-            
         </div>
     </div>
-</div>
-<footer>
-    <p>Creado por:</p>
-    <div class="creator-names">
-        Jose Rojas <br>Guaicaipuro Pinzones<br> Francisco Navarro<br>Veronica Blazquez
-    </div>
-</footer>
-<script src="script.js"></script>
+    <footer>
+        <p>Creado por:</p>
+        <div class="creator-names">
+            Jose Rojas <br>Guaicaipuro Pinzones<br> Francisco Navarro<br>Veronica Blazquez
+        </div>
+    </footer>
+    <div id="overlay"></div>
+
+        <div id="dialog">
+            <div style="display: flex; justify-content: center;gap: 20px;">
+
+                    <h3>Editar Datos </h3>
+                    <img src = "https://i.pinimg.com/736x/e1/f2/f4/e1f2f426dcce3d9ce4e4c04f6705180b.jpg" width= "80px">
+                
+            
+            </div>
+            
+            <form id="formulario-editar">
+                <label>Título:</label>
+                <input type="text" name="titulo" placeholder="Título de la serie" required><br><br>
+                <label>URL de la imagen:</label><br>
+                <input type="url" name="foto" placeholder="URL de la imagen" required><br><br>
+                <label>Creador:</label><br>
+                <input type="text" name="creador" placeholder="Creador" required><br><br>
+                <label>Cantidad de temporadas:</label>
+                <input type="number" name="cantidad_de_temporadas" placeholder="Cantidad de temporadas" required><br><br>
+                <label>Personajes principales:</label>
+                <input type="text" name="personajes_principales" placeholder="Personajes (separados por comas)" required><br><br>
+                <label>Valoración:</label>
+                <input type="text" name="valoracion" placeholder="Valoración" required><br><br>
+                <label>Año de transmisión: </label>
+                <input type="text" name="ano_de_transmision" required><br><br>
+                <label>Año de finalización: </label>
+                <input type="text" name="ano_de_finalizacion" required><br><br>
+                
+            </form>
+            <button type="submit" id="guardar">Guardar</button>
+                <button type="button" id="cerrar-dialogo">Cancelar</button>
+            
+        </div>
+
+        <div id="dialog-eliminar">
+            <h2><center>ELIMINAR <img src="https://media.istockphoto.com/id/156817388/de/vektor/bedrohlich-emoticon.jpg?s=612x612&w=0&k=20&c=lVbh0DHJBsGky9EpV_cZX0QywVnmYm2YDiPYzr6436E=" width="80px"></center></h2>
+            
+            <p><center>¿Está seguro de que desea eliminar esta serie?</center></p>
+            <center>
+            <button id="confirmar-eliminar">Eliminar  </button>
+            <button id="cancelar-eliminar">Mantener </button>
+            </center>
+
+        </div>
+        <div id = "anadir"> <button class="anadir" data-id="0">Añadir </button></div>
+
+    <script src="script.js"></script>
 </body>
 </html>

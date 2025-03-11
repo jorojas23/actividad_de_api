@@ -1,10 +1,13 @@
 [
     {
         "id": 1,
-        "titulo": "Un Show Más",
+        "titulo": "Un Show M\u00c3\u00a1s",
         "creador": "J. G. Quintel",
         "cantidad_de_temporadas": 8,
-        "personajes_principales": ["Mordecai","Rigby"],
+        "personajes_principales": [
+            "Mordecai",
+            "Rigby"
+        ],
         "valoracion": "8.5/10",
         "ano_de_transmision": "6 de septiembre de 2010",
         "ano_de_finalizacion": "16 de enero de 2017",
@@ -15,7 +18,11 @@
         "titulo": "Clarence",
         "creador": "Skyler Page",
         "cantidad_de_temporadas": 3,
-        "personajes_principales": ["Clarence","Jeff","Sumo"],
+        "personajes_principales": [
+            "Clarence",
+            "Jeff",
+            "Sumo"
+        ],
         "valoracion": "6.8/10",
         "ano_de_transmision": "14 de abril de 2014",
         "ano_de_finalizacion": "24 de junio de 2018",
@@ -26,7 +33,10 @@
         "titulo": "Hora de Aventura",
         "creador": "Pendleton Ward",
         "cantidad_de_temporadas": 10,
-        "personajes_principales": ["Finn","Jake"],
+        "personajes_principales": [
+            "Finn",
+            "Jake"
+        ],
         "valoracion": "8.6/10",
         "ano_de_transmision": "5 de abril de 2010",
         "ano_de_finalizacion": "3 de septiembre de 2018",
@@ -34,10 +44,13 @@
     },
     {
         "id": 4,
-        "titulo": "El Increíble Mundo de Gumball",
-        "creador": "Ben Bocquelet",
-        "cantidad_de_temporadas": 6,
-        "personajes_principales": ["Gumball","Darwin"],
+        "titulo": "El Incre\u00c3\u00adble Mundo de Gumball",
+        "creador": "sladjfka",
+        "cantidad_de_temporadas": 8,
+        "personajes_principales": [
+            "Gumball",
+            " Darwin"
+        ],
         "valoracion": "8.4/10",
         "ano_de_transmision": "3 de mayo de 2011",
         "ano_de_finalizacion": "24 de junio de 2019",
@@ -48,7 +61,11 @@
         "titulo": "Escandalosos",
         "creador": "Daniel Chong",
         "cantidad_de_temporadas": 4,
-        "personajes_principales": ["Pardo","Panda","Polar"],
+        "personajes_principales": [
+            "Pardo",
+            "Panda",
+            "Polar"
+        ],
         "valoracion": "7.8/10",
         "ano_de_transmision": "27 de julio de 2015",
         "ano_de_finalizacion": "27 de mayo de 2020",
@@ -59,7 +76,12 @@
         "titulo": "Steven Universe",
         "creador": "Rebecca Sugar",
         "cantidad_de_temporadas": 5,
-        "personajes_principales": ["Steven","Garnet","Amatista","Perla"],
+        "personajes_principales": [
+            "Steven",
+            "Garnet",
+            "Amatista",
+            "Perla"
+        ],
         "valoracion": "8.1/10",
         "ano_de_transmision": "4 de noviembre de 2013",
         "ano_de_finalizacion": "21 de enero de 2019",
@@ -67,10 +89,14 @@
     },
     {
         "id": 7,
-        "titulo": "Tío Grandpa",
+        "titulo": "T\u00c3\u00ado Grandpa",
         "creador": "Peter Browngart",
         "cantidad_de_temporadas": 5,
-        "personajes_principales": ["Tío Grandpa","Pizza Steve","Mr. Gus"],
+        "personajes_principales": [
+            "T\u00c3\u00ado Grandpa",
+            "Pizza Steve",
+            "Mr. Gus"
+        ],
         "valoracion": "4.6/10",
         "ano_de_transmision": "17 de septiembre de 2013",
         "ano_de_finalizacion": "30 de junio de 2017",
@@ -81,7 +107,11 @@
         "titulo": "Coraje el Perro Cobarde",
         "creador": "Juan Dilworth",
         "cantidad_de_temporadas": 4,
-        "personajes_principales": ["Coraje","Muriel","Justo"],
+        "personajes_principales": [
+            "Coraje",
+            "Muriel",
+            "Justo"
+        ],
         "valoracion": "8.3/10",
         "ano_de_transmision": "12 de noviembre de 1999",
         "ano_de_finalizacion": "22 de noviembre de 2002",
@@ -92,7 +122,11 @@
         "titulo": "Las Chicas Superpoderosas",
         "creador": "Carig McCracken",
         "cantidad_de_temporadas": 6,
-        "personajes_principales": ["Burbuja","Bombón","Bellota"],
+        "personajes_principales": [
+            "Burbuja",
+            "Bomb\u00c3\u00b3n",
+            "Bellota"
+        ],
         "valoracion": "7.3/10",
         "ano_de_transmision": "18 de noviembre de 1998",
         "ano_de_finalizacion": "25 de marzo de 2005",
@@ -103,7 +137,13 @@
         "titulo": "Teen Titans",
         "creador": "David Slack",
         "cantidad_de_temporadas": 5,
-        "personajes_principales": ["Robin","Chico Bestia","Raven","Starfire", "Cyborg"],
+        "personajes_principales": [
+            "Robin",
+            "Chico Bestia",
+            "Raven",
+            "Starfire",
+            "Cyborg"
+        ],
         "valoracion": "7.9/10",
         "ano_de_transmision": "19 de julio de 2003",
         "ano_de_finalizacion": "16 de enero de 2006",
@@ -114,7 +154,11 @@
         "titulo": "Ben 10",
         "creador": "Joe Casey",
         "cantidad_de_temporadas": 4,
-        "personajes_principales": ["Ben","Gwen", "Max"],
+        "personajes_principales": [
+            "Ben",
+            "Gwen",
+            "Max"
+        ],
         "valoracion": "7.5/10",
         "ano_de_transmision": "27 de diciembre de 2005",
         "ano_de_finalizacion": "15 de abril de 2008",
@@ -125,7 +169,11 @@
         "titulo": "Las maravillosas desventuras de Flapjack",
         "creador": "Thurop Van Orman",
         "cantidad_de_temporadas": 3,
-        "personajes_principales": ["Flapjack", "Capitan K'nuckles", "Bubbie"],
+        "personajes_principales": [
+            "Flapjack",
+            "Capitan K'nuckles",
+            "Bubbie"
+        ],
         "valoracion": "7.8/10",
         "ano_de_transmision": "5 de junio de 2008",
         "ano_de_finalizacion": "30 de agosto de 2010",
@@ -133,10 +181,13 @@
     },
     {
         "id": 13,
-        "titulo": "Manzana y Cebollín",
+        "titulo": "Manzana y Ceboll\u00c3\u00adn",
         "creador": "George Gendi",
         "cantidad_de_temporadas": 2,
-        "personajes_principales": ["Manzana","Cebollín"],
+        "personajes_principales": [
+            "Manzana",
+            "Ceboll\u00c3\u00adn"
+        ],
         "valoracion": "6.3/10",
         "ano_de_transmision": "23 de febrero de 2018",
         "ano_de_finalizacion": "27 de mayo de 2021",
@@ -147,7 +198,9 @@
         "titulo": "Johnny Bravo",
         "creador": "Van Partible",
         "cantidad_de_temporadas": 4,
-        "personajes_principales": ["Johnny Bravo"],
+        "personajes_principales": [
+            "Johnny Bravo"
+        ],
         "valoracion": "7.2/10",
         "ano_de_transmision": "7 de julio de 1997",
         "ano_de_finalizacion": "27 de agosto de 2004",
@@ -158,7 +211,11 @@
         "titulo": "Billy y Mandy",
         "creador": "Maxwell Atoms",
         "cantidad_de_temporadas": 6,
-        "personajes_principales": ["Billy","Mandy", "Puro Hueso"],
+        "personajes_principales": [
+            "Billy",
+            "Mandy",
+            "Puro Hueso"
+        ],
         "valoracion": "7.7/10",
         "ano_de_transmision": "13 de junio de 2003",
         "ano_de_finalizacion": "12 de octubre de 2008",
@@ -169,7 +226,11 @@
         "titulo": "Drama Total",
         "creador": "Tom McGills",
         "cantidad_de_temporadas": 6,
-        "personajes_principales": ["Owen","Gwen","Duncan"],
+        "personajes_principales": [
+            "Owen",
+            "Gwen",
+            "Duncan"
+        ],
         "valoracion": "7.4/10",
         "ano_de_transmision": "8 de julio de 2007",
         "ano_de_finalizacion": "10 de septiembre de 2014",
@@ -180,7 +241,11 @@
         "titulo": "Ed, Edd y Eddy",
         "creador": "Danny Antonucci",
         "cantidad_de_temporadas": 6,
-        "personajes_principales": ["Ed","Edd","Eddy"],
+        "personajes_principales": [
+            "Ed",
+            "Edd",
+            "Eddy"
+        ],
         "valoracion": "7.4/10",
         "ano_de_transmision": "4 de enero de 1999",
         "ano_de_finalizacion": "8 de noviembre de 2009",
@@ -191,7 +256,11 @@
         "titulo": "Dragon Ball Z Kai",
         "creador": "Akira Toriyama",
         "cantidad_de_temporadas": 2,
-        "personajes_principales": ["Goku","Vegeta","Gohan"],
+        "personajes_principales": [
+            "Goku",
+            "Vegeta",
+            "Gohan"
+        ],
         "valoracion": "8.3/10",
         "ano_de_transmision": "5 de abril de 2009",
         "ano_de_finalizacion": "28 de junio de 2015",
@@ -202,7 +271,11 @@
         "titulo": "Chowder",
         "creador": "C.H. Greenblatt",
         "cantidad_de_temporadas": 3,
-        "personajes_principales": ["Chowder","Mung Daal", "Shnitzel"],
+        "personajes_principales": [
+            "Chowder",
+            "Mung Daal",
+            "Shnitzel"
+        ],
         "valoracion": "7.3/10",
         "ano_de_transmision": "2 de noviembre de 2007",
         "ano_de_finalizacion": "7 de agosto de 2010",
@@ -213,7 +286,10 @@
         "titulo": "Johny Test",
         "creador": "Scott Fellows",
         "cantidad_de_temporadas": 6,
-        "personajes_principales": ["Johnny Test","Dukey"],
+        "personajes_principales": [
+            "Johnny Test",
+            "Dukey"
+        ],
         "valoracion": "5.4/10",
         "ano_de_transmision": "17 de septiembre de 2005",
         "ano_de_finalizacion": "25 de diciembre de 2014",
@@ -224,7 +300,12 @@
         "titulo": "KND: Los chicos del barrio",
         "creador": "Tom Warburton",
         "cantidad_de_temporadas": 6,
-        "personajes_principales": ["Miguel One","Kuki Sanban","Abigail Lincoln", "Wallabee Beatles"],
+        "personajes_principales": [
+            "Miguel One",
+            "Kuki Sanban",
+            "Abigail Lincoln",
+            "Wallabee Beatles"
+        ],
         "valoracion": "7.2/10",
         "ano_de_transmision": "6 de diciembre de 2002",
         "ano_de_finalizacion": "21 de enero de 2008",
@@ -232,10 +313,16 @@
     },
     {
         "id": 22,
-        "titulo": "Mansión Foster para Amigos Imaginarios",
+        "titulo": "Mansi\u00c3\u00b3n Foster para Amigos Imaginarios",
         "creador": "Craig McCracken",
         "cantidad_de_temporadas": 6,
-        "personajes_principales": ["Mac","Bloo","Wilt","Coco","Eduardo"],
+        "personajes_principales": [
+            "Mac",
+            "Bloo",
+            "Wilt",
+            "Coco",
+            "Eduardo"
+        ],
         "valoracion": "7.6/10",
         "ano_de_transmision": "13 de agosto de 2004",
         "ano_de_finalizacion": "de mayo de 2009",
@@ -246,7 +333,10 @@
         "titulo": "El Laboratorio de Dexter",
         "creador": "Genndy Tartakovsky",
         "cantidad_de_temporadas": 4,
-        "personajes_principales": ["Dexter","Dee Dee"],
+        "personajes_principales": [
+            "Dexter",
+            "Dee Dee"
+        ],
         "valoracion": "7.9/10",
         "ano_de_transmision": "28 de abril de 1996",
         "ano_de_finalizacion": "20 de noviembre de 2003",
@@ -257,10 +347,14 @@
         "titulo": "El Mundo de Craig",
         "creador": "Matt Burnett",
         "cantidad_de_temporadas": 4,
-        "personajes_principales": ["Craig","Kelsey","JP"],
+        "personajes_principales": [
+            "Craig",
+            "Kelsey",
+            "JP"
+        ],
         "valoracion": "7.5/10",
         "ano_de_transmision": "30 de marzo de 2018",
-        "ano_de_finalizacion": "En emisión",
+        "ano_de_finalizacion": "En emisi\u00c3\u00b3n",
         "foto": "https://static.wikia.nocookie.net/international-entertainment-project/images/3/3d/Craig_of_the_Creek_poster.png/revision/latest?cb=20221012181701"
     },
     {
@@ -268,7 +362,11 @@
         "titulo": "La Naranja Molesta",
         "creador": "Dane Boedigheimer",
         "cantidad_de_temporadas": 2,
-        "personajes_principales": ["Naranja","Pera","Pomelo"],
+        "personajes_principales": [
+            "Naranja",
+            "Pera",
+            "Pomelo"
+        ],
         "valoracion": "3.7/10",
         "ano_de_transmision": "28 de mayo de 2012",
         "ano_de_finalizacion": "17 de marzo de 2014",
@@ -279,7 +377,10 @@
         "titulo": "El Show de Garfield",
         "creador": "Jim Davis",
         "cantidad_de_temporadas": 5,
-        "personajes_principales": ["Garfield","Jon"],
+        "personajes_principales": [
+            "Garfield",
+            "Jon"
+        ],
         "valoracion": "5.3/10",
         "ano_de_transmision": "2 de noviembre de 2009",
         "ano_de_finalizacion": "24 de octubre de 2016",
@@ -290,7 +391,13 @@
         "titulo": "Scooby-Doo Misterios, S.A.",
         "creador": "Joe Ruby",
         "cantidad_de_temporadas": 2,
-        "personajes_principales": ["Scooby-Doo","Shaggy","Velma","Fred","Daphne"],
+        "personajes_principales": [
+            "Scooby-Doo",
+            "Shaggy",
+            "Velma",
+            "Fred",
+            "Daphne"
+        ],
         "valoracion": "8.2/10",
         "ano_de_transmision": "5 de abril de 2010",
         "ano_de_finalizacion": "5 de abril de 2013",
@@ -301,7 +408,10 @@
         "titulo": "Samurai Jack",
         "creador": "Genndy Tartakovsky",
         "cantidad_de_temporadas": 5,
-        "personajes_principales": ["Samurai Jack","Aku"],
+        "personajes_principales": [
+            "Samurai Jack",
+            "Aku"
+        ],
         "valoracion": "8.5/10",
         "ano_de_transmision": "10 de agosto de 2001",
         "ano_de_finalizacion": "20 de mayo de 2017",
